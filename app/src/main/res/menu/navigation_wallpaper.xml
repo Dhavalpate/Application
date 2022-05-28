@@ -6,10 +6,10 @@
         android:icon="@drawable/ic_nav_wallpaper"
         android:title="@string/title_nav_home" />
 
-<!--    <item-->
-<!--        android:id="@+id/navigation_category"-->
-<!--        android:icon="@drawable/ic_nav_categories"-->
-<!--        android:title="@string/title_nav_category" />-->
+    <item
+        android:id="@+id/navigation_category"
+        android:icon="@drawable/ic_nav_categories"
+        android:title="@string/title_nav_category" />
 
     <item
         android:id="@+id/navigation_favorite"

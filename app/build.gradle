@@ -10,8 +10,8 @@ android {
         applicationId "com.devshub.loadshiv"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 3
-        versionName "0.3"
+        versionCode 4
+        versionName "0.4"
         multiDexEnabled true
     }
     buildTypes {
@@ -20,6 +20,29 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+//    flavorDimensions "god"
+//    productFlavors {
+//        loadshiv {
+//            dimension "god"
+//            applicationId "com.devshub.loadshiv"
+//            versionCode 3
+//            versionName "0.3"
+//            applicationIdSuffix ".loadshiv"
+//        }
+//        khodal {
+//            dimension "god"
+//            applicationId "com.devshub.wallpaper.khodiyarmaa"
+//            versionCode 1
+//            versionName "0.1"
+//            applicationIdSuffix ".khodal"
+//        }
+////        vanilla {
+////            dimension "icecream"
+////            applicationIdSuffix ".vanilla"
+////        }
+//    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8

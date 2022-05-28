@@ -166,9 +166,9 @@ public class MainActivity extends AppCompatActivity {
             if (Config.DISPLAY_CATEGORY_AS_MAIN_SCREEN) {
                 navigation.setOnNavigationItemSelectedListener(item -> {
                     switch (item.getItemId()) {
-//                        case R.id.navigation_category:
-//                            viewPagerRTL.setCurrentItem(0);
-//                            return true;
+                        case R.id.navigation_category:
+                            viewPagerRTL.setCurrentItem(0);
+                            return true;
                         case R.id.navigation_home:
                             viewPagerRTL.setCurrentItem(1);
                             return true;
@@ -184,9 +184,9 @@ public class MainActivity extends AppCompatActivity {
                         case R.id.navigation_home:
                             viewPagerRTL.setCurrentItem(0);
                             return true;
-//                        case R.id.navigation_category:
-//                            viewPagerRTL.setCurrentItem(1);
-//                            return true;
+                        case R.id.navigation_category:
+                            viewPagerRTL.setCurrentItem(1);
+                            return true;
                         case R.id.navigation_favorite:
                             viewPagerRTL.setCurrentItem(2);
                             return true;
@@ -213,13 +213,15 @@ public class MainActivity extends AppCompatActivity {
 
                     if (viewPagerRTL.getCurrentItem() == 0) {
                         toolbar.setTitle(getResources().getString(R.string.app_name));
-                    } else if (viewPagerRTL.getCurrentItem() == 1) {
+                    }
+                    else if (viewPagerRTL.getCurrentItem() == 1) {
                         if (Config.DISPLAY_CATEGORY_AS_MAIN_SCREEN) {
                             toolbar.setTitle(getResources().getString(R.string.title_nav_home));
                         } else {
                             toolbar.setTitle(getResources().getString(R.string.title_nav_category));
                         }
-                    } else if (viewPagerRTL.getCurrentItem() == 2) {
+                    }
+                    else if (viewPagerRTL.getCurrentItem() == 1) {
                         toolbar.setTitle(getResources().getString(R.string.title_nav_favorite));
                     }
 
@@ -238,9 +240,9 @@ public class MainActivity extends AppCompatActivity {
             if (Config.DISPLAY_CATEGORY_AS_MAIN_SCREEN) {
                 navigation.setOnNavigationItemSelectedListener(item -> {
                     switch (item.getItemId()) {
-//                        case R.id.navigation_category:
-//                            viewPager.setCurrentItem(0);
-//                            return true;
+                        case R.id.navigation_category:
+                            viewPager.setCurrentItem(0);
+                            return true;
                         case R.id.navigation_home:
                             viewPager.setCurrentItem(1);
                             return true;
@@ -256,9 +258,9 @@ public class MainActivity extends AppCompatActivity {
                         case R.id.navigation_home:
                             viewPager.setCurrentItem(0);
                             return true;
-//                        case R.id.navigation_category:
-//                            viewPager.setCurrentItem(1);
-//                            return true;
+                        case R.id.navigation_category:
+                            viewPager.setCurrentItem(1);
+                            return true;
                         case R.id.navigation_favorite:
                             viewPager.setCurrentItem(2);
                             return true;
@@ -285,13 +287,15 @@ public class MainActivity extends AppCompatActivity {
 
                     if (viewPager.getCurrentItem() == 0) {
                         toolbar.setTitle(getResources().getString(R.string.app_name));
-                    } else if (viewPager.getCurrentItem() == 1) {
+                    }
+                    else if (viewPager.getCurrentItem() == 1) {
                         if (Config.DISPLAY_CATEGORY_AS_MAIN_SCREEN) {
                             toolbar.setTitle(getResources().getString(R.string.title_nav_home));
                         } else {
                             toolbar.setTitle(getResources().getString(R.string.title_nav_category));
                         }
-                    } else if (viewPager.getCurrentItem() == 2) {
+                    }
+                    else if (viewPager.getCurrentItem() == 2) {
                         toolbar.setTitle(getResources().getString(R.string.title_nav_favorite));
                     }
 

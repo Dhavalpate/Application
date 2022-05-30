@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1004896307076",
+    "project_id": "load-shiv",
+    "storage_bucket": "load-shiv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004896307076:android:ef8086a4a59fcfc7637fd1",
+        "android_client_info": {
+          "package_name": "com.devshub.loadshiv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004896307076-j94jhg502djq2j0s0m5i2rt7aqo5si93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsdTGKOvh7s5BWQWEh2qoV50pg8LXo3gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004896307076-j94jhg502djq2j0s0m5i2rt7aqo5si93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004896307076:android:d14836ee6732b5dd637fd1",
+        "android_client_info": {
+          "package_name": "com.devshub.wallpaper.khodlama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004896307076-j94jhg502djq2j0s0m5i2rt7aqo5si93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsdTGKOvh7s5BWQWEh2qoV50pg8LXo3gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004896307076-j94jhg502djq2j0s0m5i2rt7aqo5si93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

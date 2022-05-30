@@ -1,7 +1,7 @@
 <resources>
 
     <!--app info-->
-    <string name="app_name">Lord Shiv Wallpaper</string>
+<!--    <string name="app_name">Lord Shiv Wallpaper</string>-->
     <string name="app_copyright">Copyright &#169; 2022 Devs Hub Developer \n All rights reserved</string>
     <string name="play_more_apps">https://play.google.com/store/apps/developer?id=Goddfather</string>
     <string name="gdpr_privacy_policy_url">https://dhavalblog.com/Privacy-policy/Wallpaper-Privacy</string>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "754539482759",
+    "project_id": "khodal-maa",
+    "storage_bucket": "khodal-maa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754539482759:android:787bca0160743bbe713222",
+        "android_client_info": {
+          "package_name": "com.devshub.khodlama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754539482759-80tduv5g27vlggriau15j6434a91ju1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrl9LHg2s6zNx-tqSHPVjyh1q745nBENI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754539482759-80tduv5g27vlggriau15j6434a91ju1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

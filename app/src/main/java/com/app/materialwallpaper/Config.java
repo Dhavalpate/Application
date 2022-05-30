@@ -4,8 +4,9 @@ import com.app.materialwallpaper.utils.Constant;
 
 public class Config {
 
+
     //admin panel url
-    public static final String ADMIN_PANEL_URL = "http://dhavalblog.com/Wallpaper/material_wallpaper";
+    public static final String ADMIN_PANEL_URL = BuildConfig.BASE_URL;
 
     //default theme in first launch
     public static final boolean DEFAULT_THEME = Constant.THEME_LIGHT;

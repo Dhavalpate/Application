@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
             setContentView(R.layout.activity_main);
         }
 
+
         adsManager = new AdsManager(this);
         adsManager.initializeAd();
         adsManager.updateConsentStatus();

@@ -15,33 +15,51 @@ android {
         multiDexEnabled true
     }
     buildTypes {
+
+        debug {
+            minifyEnabled false
+            debuggable true
+        }
+        qa {
+            minifyEnabled true
+            debuggable false
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    def BASE_URL = "BASE_URL"
 
-//    flavorDimensions "god"
-//    productFlavors {
-//        loadshiv {
-//            dimension "god"
-//            applicationId "com.devshub.loadshiv"
-//            versionCode 3
-//            versionName "0.3"
-//            applicationIdSuffix ".loadshiv"
+    flavorDimensions "god"
+    productFlavors {
+        loadshiv {
+            resValue "string", "app_name", "Load Shiv"
+            dimension "god"
+            applicationId "com.devshub.loadshiv"
+            buildConfigField "String", BASE_URL, "\"https://dhavalblog.com/Wallpaper/material_wallpaper\""
+            versionCode 4
+            versionName "0.4"
+
+
+        }
+        khodal {
+            resValue "string", "app_name", "Khodal"
+            dimension "god"
+            buildConfigField "String", BASE_URL, "\"https://dhavalblog.com/Wallpaper/khodal\""
+            applicationId "com.devshub.khodlama"
+            versionCode 1
+            versionName "0.1"
+
+
+        }
+//        vanilla {
+//            dimension "icecream"
+//            applicationIdSuffix ".vanilla"
 //        }
-//        khodal {
-//            dimension "god"
-//            applicationId "com.devshub.wallpaper.khodiyarmaa"
-//            versionCode 1
-//            versionName "0.1"
-//            applicationIdSuffix ".khodal"
-//        }
-////        vanilla {
-////            dimension "icecream"
-////            applicationIdSuffix ".vanilla"
-////        }
-//    }
+
+
+    }
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -51,6 +69,24 @@ android {
         disable 'GradleDependency'
     }
     useLibrary 'org.apache.http.legacy'
+    sourceSets {
+        loadshiv {
+            res {
+                srcDirs 'src\\loadshiv\\res'
+            }
+            java {
+                srcDirs 'src\\loadshiv\\java'
+            }
+        }
+        khodal {
+            res {
+                srcDirs 'src\\khodal\\res'
+            }
+            java {
+                srcDirs 'src\\khodal\\java'
+            }
+        }
+    }
 }
 
 dependencies {
